@@ -15,8 +15,8 @@ from youtubesearchpython.future import VideosSearch, Playlist
 DOWNLOAD_DIR = "downloads"
 LOGGER = logging.getLogger(name)
 
-API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
-API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsK0jG7mPzpPWgmr5Zb9K1")
+API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.in")
+API_KEY = os.environ.get("SHRUTI_API_KEY", "")
 
 # Worker API (Now Primary)
 WORKER_FALLBACK_API_URL = os.getenv("WORKER_FALLBACK_API_URL", "https://youtubenewapi.skybotsdeveloper.workers.dev")
